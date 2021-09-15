@@ -1,0 +1,41 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 74px);
+  grid-template-rows: repeat(6, 80px);
+}
+
+.one {
+  grid-row: 1;
+}
+
+.two {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.three {
+  grid-row: 1;
+  grid-column: 5;
+}
+
+.four {
+  grid-row: 3;
+  position: relative;
+  top: 20px;
+}
+
+.five {
+  grid-row: 3;
+  grid-column: 3;
+  position: relative;
+  top: 20px;
+  right: 35px
+}
+
+.six {
+  grid-row: 6;
+  grid-column: 3;
+  position: relative;
+  bottom: 20px;
+  right: 35px
+}
